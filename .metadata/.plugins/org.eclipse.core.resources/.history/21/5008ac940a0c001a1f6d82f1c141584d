@@ -1,0 +1,19 @@
+package org.in;
+
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class Samsung {
+
+	public static void main(String[] args) {
+		DesiredCapabilities cp= new DesiredCapabilities();
+		
+		cp.setCapability("deviceName","samsung j7 max");
+		cp.setCapability("platformName","Android");
+		cp.setCapability("platformversion","8");
+		cp.setCapability("appPackage","org.in");
+		cp.setCapability("appActivity","org.in.Samsung.java");
+		
+		
+		
+	}
+}

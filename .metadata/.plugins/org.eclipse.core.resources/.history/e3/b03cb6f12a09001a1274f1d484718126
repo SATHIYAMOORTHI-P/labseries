@@ -1,0 +1,73 @@
+package org.in;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+
+public class Sample {
+public static void main(String[] args) {
+
+		char c = 'A';
+		Map<Integer, Character> m = new HashMap<Integer, Character>();
+		for (int i = 1; i <= 26; i++) {
+		m.put(i, c);
+		c++;
+	
+		}
+	System.out.println(m.values());
+	String s="ARUN";
+	for (int i = 0; i <s.length(); i++) {
+	char cc = s.charAt(i);	
+	if(m.containsKey(cc)) {
+		Set<Integer> ks = m.keySet();
+		System.out.println(ks);
+	}
+	}
+	
+	
+	
+/*
+			Map<Integer,Character>m=new HashMap<>();
+	String	s="ARUN";	
+		
+		for(char i='A';i<='Z';i++) {
+			int count =1;
+	if (m.containsKey(i)) {
+		//count = m.get(i);
+		//m.put(count,i );
+		//count++;
+		//System.out.println(m.values());
+		
+	}
+
+	else {
+		m.put(count,i);
+		count++;
+	}
+		
+		Collection<Character> v = m.values();
+		System.out.println(v);
+		Set<Integer> ks = m.keySet();
+		System.out.println(ks);
+		
+		Set<Entry<Integer, Character>> es = m.entrySet();
+		for (Entry<Integer, Character> en : es) {
+		
+			System.out.println(en.getKey());
+			
+		}
+	
+	
+	
+	
+	
+	
+	
+}
+	*/
+	
+	
+		}
+}

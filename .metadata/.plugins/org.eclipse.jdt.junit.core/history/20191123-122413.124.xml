@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="Lab" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="com.lab.testrunner.TestRunner" time="0.002">
+    <testsuite name="Feature: To check the product foliow details" time="0.002">
+      <testcase name="product follow for shampoo" classname="To check the product foliow details" time="0.002">
+        <error>java.lang.NullPointerException&#13;
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;
+	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)&#13;
+	at org.lab.base.BaseClass.send(BaseClass.java:45)&#13;
+	at com.lab.stepdefinition.StepDefinition.user_enters_into_the_home_page(StepDefinition.java:20)&#13;
+	at ✽.User enters into the home page(src/test/resources/lab.feature:7)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

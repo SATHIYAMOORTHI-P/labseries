@@ -1,0 +1,39 @@
+package org.lab.base;
+
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+
+import com.lab.stepdefinition.Hooks;
+
+public class BaseClass {
+
+	public static WebElement locateByXpath(String u) {
+WebElement element = Hooks.driver.findElement(By.xpath(u));
+return element;
+	}
+	
+	public static void send(WebElement e,String u) {
+e.sendKeys(u);
+	}
+	public static void enter() throws AWTException {
+Robot r=new Robot();
+r.keyPress(KeyEvent.VK_ENTER);
+r.keyRelease(KeyEvent.VK_ENTER);
+	}
+	public static void move(WebElement e) {
+Actions ac=new Actions(Hooks.driver);
+ac.moveToElement(e).perform();
+		
+	}
+	
+	
+	
+	
+	
+	
+}

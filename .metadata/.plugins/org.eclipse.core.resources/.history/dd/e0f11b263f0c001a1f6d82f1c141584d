@@ -1,0 +1,26 @@
+package org.lab.base;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import com.lab.stepdefinition.Hooks;
+
+public class BaseClass {
+
+	public static WebElement locateByXpath(String u) {
+WebElement element = Hooks.driver.findElement(By.xpath(u));
+return element;
+	}
+	
+	public static void send(WebElement e,String u) {
+e.sendKeys(u);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

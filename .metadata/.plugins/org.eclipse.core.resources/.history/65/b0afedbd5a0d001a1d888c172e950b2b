@@ -1,0 +1,10 @@
+package org.maveric.fb;
+
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+
+public class Facebook {
+	
+	@Before
+
+}

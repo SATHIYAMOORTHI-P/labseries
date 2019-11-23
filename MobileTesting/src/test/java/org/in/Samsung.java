@@ -1,0 +1,30 @@
+package org.in;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidDriver;
+
+public class Samsung {
+
+	public static void main(String[] args) throws MalformedURLException {
+		DesiredCapabilities cp= new DesiredCapabilities();
+		
+		cp.setCapability("deviceName","samsung j7 max");
+		cp.setCapability("platformName","Android");
+		cp.setCapability("platformversion","8");
+		cp.setCapability("appPackage","org.in");
+		cp.setCapability("appActivity","org.in.Samsung.java");
+		cp.setCapability("udid","420027229bfc64bd");
+		cp.setCapability("newCommandTimeout","600");
+		
+		AppiumDriver driver = new AndroidDriver<MobileElement>(new URL("http://0.0.0.0:4723/wd/hub"),cp);
+	
+		driver.get("https://www.youtube.com/");
+		
+	}
+}

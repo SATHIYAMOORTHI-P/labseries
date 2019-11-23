@@ -1,0 +1,26 @@
+package com.lab.stepdefinition;
+
+import org.junit.After;
+import org.junit.Before;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Hooks {
+public static WebDriver driver;
+	
+	@Before
+	private void getBrowser() {
+System.setProperty("webdriver.chrome.driver","D:\\LabSeries\\Lab\\drivers\\chromedriver.exe");
+WebDriver driver=new ChromeDriver();
+driver.get("https://www.labseries.com/");
+	}
+	@After
+	private void end() {
+driver.quit();
+	}
+	
+	
+	
+	
+	
+}

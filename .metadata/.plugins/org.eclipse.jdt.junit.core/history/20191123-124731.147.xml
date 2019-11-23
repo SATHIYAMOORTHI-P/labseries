@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner (1)" project="Lab" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="com.lab.testrunner.TestRunner" time="7.26">
+    <testsuite name="Feature: To check the product foliow details" time="7.26">
+      <testcase name="product follow for shampoo" classname="To check the product foliow details" time="7.26">
+        <error>org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 76
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-FIMALUG', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00787C93+1473683]
+	Ordinal0 [0x0070ADB1+961969]
+	Ordinal0 [0x006942E3+475875]
+	Ordinal0 [0x0062F365+62309]
+	Ordinal0 [0x0062BC77+48247]
+	Ordinal0 [0x00649149+168265]
+	Ordinal0 [0x00648D1D+167197]
+	Ordinal0 [0x0064742B+160811]
+	Ordinal0 [0x00630AE6+68326]
+	Ordinal0 [0x00631BF0+72688]
+	Ordinal0 [0x00631B89+72585]
+	Ordinal0 [0x00724B77+1067895]
+	GetHandleVerifier [0x00826875+506677]
+	GetHandleVerifier [0x00826610+506064]
+	GetHandleVerifier [0x0082D1B8+533624]
+	GetHandleVerifier [0x0082704A+508682]
+	Ordinal0 [0x0071C266+1032806]
+	Ordinal0 [0x0071C0DF+1032415]
+	Ordinal0 [0x00726A8B+1075851]
+	Ordinal0 [0x00726BF3+1076211]
+	Ordinal0 [0x00725BA5+1072037]
+	BaseThreadInitThunk [0x76BA6359+25]
+	RtlGetAppContainerNamedObjectPath [0x775B7B74+228]
+	RtlGetAppContainerNamedObjectPath [0x775B7B44+180]
+&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#13;
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#13;
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#13;
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)&#13;
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)&#13;
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)&#13;
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)&#13;
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)&#13;
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#13;
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;
+	at com.lab.stepdefinition.StepDefinition.user_enters_into_the_home_page(StepDefinition.java:24)&#13;
+	at ✽.User enters into the home page(src/test/resources/lab.feature:7)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

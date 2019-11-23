@@ -1,0 +1,19 @@
+package org.maveric.fb;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+
+public class Facebook {
+	
+	@BeforeClass
+	private void getBrowser() {
+		System.setProperty("webdriver.chrome.driver","D:\\LabSeries\\Facebook\\drivers\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://www.labseries.com/");
+		driver.manage().window().maximize();
+	}
+
+}

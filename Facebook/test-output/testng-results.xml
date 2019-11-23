@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27829" started-at="2019-11-22T19:36:33Z" finished-at="2019-11-22T19:37:00Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="27829" started-at="2019-11-22T19:36:33Z" finished-at="2019-11-22T19:37:00Z">
+      <class name="org.maveric.fb.Facebook">
+        <test-method status="PASS" signature="getBrowser()[pri:0, instance:org.maveric.fb.Facebook@2a2d45ba]" name="getBrowser" is-config="true" duration-ms="20262" started-at="2019-11-22T19:36:33Z" finished-at="2019-11-22T19:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowser -->
+        <test-method status="PASS" signature="date()[pri:0, instance:org.maveric.fb.Facebook@2a2d45ba]" name="date" is-config="true" duration-ms="8" started-at="2019-11-22T19:36:53Z" finished-at="2019-11-22T19:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- date -->
+        <test-method status="PASS" signature="tc1()[pri:0, instance:org.maveric.fb.Facebook@2a2d45ba]" name="tc1" duration-ms="922" started-at="2019-11-22T19:36:53Z" finished-at="2019-11-22T19:36:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="date1()[pri:0, instance:org.maveric.fb.Facebook@2a2d45ba]" name="date1" is-config="true" duration-ms="4" started-at="2019-11-22T19:36:54Z" finished-at="2019-11-22T19:36:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- date1 -->
+        <test-method status="PASS" signature="date()[pri:0, instance:org.maveric.fb.Facebook@2a2d45ba]" name="date" is-config="true" duration-ms="2" started-at="2019-11-22T19:36:54Z" finished-at="2019-11-22T19:36:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- date -->
+        <test-method status="PASS" signature="tc2()[pri:0, instance:org.maveric.fb.Facebook@2a2d45ba]" name="tc2" duration-ms="1482" started-at="2019-11-22T19:36:54Z" finished-at="2019-11-22T19:36:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="date()[pri:0, instance:org.maveric.fb.Facebook@2a2d45ba]" name="date" is-config="true" duration-ms="0" started-at="2019-11-22T19:36:55Z" finished-at="2019-11-22T19:36:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- date -->
+        <test-method status="PASS" signature="date1()[pri:0, instance:org.maveric.fb.Facebook@2a2d45ba]" name="date1" is-config="true" duration-ms="0" started-at="2019-11-22T19:36:55Z" finished-at="2019-11-22T19:36:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- date1 -->
+        <test-method status="PASS" signature="tc3()[pri:0, instance:org.maveric.fb.Facebook@2a2d45ba]" name="tc3" duration-ms="626" started-at="2019-11-22T19:36:55Z" finished-at="2019-11-22T19:36:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method status="PASS" signature="date1()[pri:0, instance:org.maveric.fb.Facebook@2a2d45ba]" name="date1" is-config="true" duration-ms="4" started-at="2019-11-22T19:36:56Z" finished-at="2019-11-22T19:36:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- date1 -->
+        <test-method status="PASS" signature="end()[pri:0, instance:org.maveric.fb.Facebook@2a2d45ba]" name="end" is-config="true" duration-ms="4454" started-at="2019-11-22T19:36:56Z" finished-at="2019-11-22T19:37:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- org.maveric.fb.Facebook -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

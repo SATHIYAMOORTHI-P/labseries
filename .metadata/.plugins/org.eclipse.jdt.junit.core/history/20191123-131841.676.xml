@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner (1)" project="Lab" tests="3" started="3" failures="0" errors="3" ignored="0">
+  <testsuite name="com.lab.testrunner.TestRunner" time="30.919">
+    <testsuite name="Feature: To check the product foliow details" time="30.919">
+      <testcase name="product follow for shampoo" classname="To check the product foliow details" time="30.881">
+        <error>java.lang.NullPointerException&#13;
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;
+	at com.sun.proxy.$Proxy16.click(Unknown Source)&#13;
+	at com.lab.stepdefinition.StepDefinition.user_addtobag_the_product(StepDefinition.java:36)&#13;
+	at ✽.User addtobag the product(src/test/resources/lab.feature:8)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="product follow for wash" classname="To check the product foliow details" time="0.01">
+        <error>java.lang.NullPointerException&#13;
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;
+	at com.sun.proxy.$Proxy16.click(Unknown Source)&#13;
+	at com.lab.stepdefinition.StepDefinition.user_select_the_product(StepDefinition.java:57)&#13;
+	at ✽.User select the product(src/test/resources/lab.feature:14)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="To check the login functionality" classname="To check the product foliow details" time="0.017">
+        <error>java.lang.NullPointerException&#13;
+	at java.util.Objects.requireNonNull(Unknown Source)&#13;
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:65)&#13;
+	at org.lab.base.BaseClass.move(BaseClass.java:71)&#13;
+	at com.lab.stepdefinition.StepDefinition.user_enter_into_the_login_page(StepDefinition.java:72)&#13;
+	at ✽.User enter into the login page(src/test/resources/lab.feature:19)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,5 @@
+package org.lab.base;
+
+public class BaseClass {
+
+}
